@@ -231,6 +231,24 @@
       "date": "",
       "time": "5:00",
       "attendees": []
+    },
+    {
+      "id": 282907,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Testing",
+      "description": "Ahoy there",
+      "location": "Somewhere else",
+      "date": "2019-02-01T19:59:00.000Z",
+      "time": "2:00",
+      "attendees": []
     }
   ]
 }
