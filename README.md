@@ -33,7 +33,7 @@ npm run lint
 ### Run Mock API Server
 
 ```
-npm run json-server --watch db.json
+npm run json-server
 ```
 
 ### Customize configuration
