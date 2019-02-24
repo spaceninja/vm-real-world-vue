@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import NProgress from 'nprogress'
+import Example from './views/Example.vue'
 import EventCreate from './views/EventCreate.vue'
 import EventList from './views/EventList.vue'
 import EventShow from './views/EventShow.vue'
@@ -18,6 +19,10 @@ const router = new Router({
       name: 'event-list',
       component: EventList,
       props: true
+    },
+    {
+      path: '/example',
+      component: Example
     },
     {
       path: '/event/:id',
